@@ -12,5 +12,5 @@ The definition is a simple one. It's a list of tasks you need to complete or thi
  ------>Open one terminal and type:
  ------>mongod
  ------>Open another terminal and type
- ------>nodemon index.js
+ ------>nodemon index.js 
  ------>Now open browser and type localhost:3000
