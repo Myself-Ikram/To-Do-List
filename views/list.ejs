@@ -1,0 +1,22 @@
+<%- include("header") -%>
+
+
+        <div class="heading">
+            <h2 style="text-align:center;">[^<%= day %>^]</h2>
+        </div>
+        <div class="task">
+            <% newItems.forEach(function(item){ %>
+                <form action="/delete" method="post">
+                    <div class="items">
+                        <input type="checkbox" name="checkbox" class="check checkbox" onchange="this.form.submit()" value="<%= item._id %>">
+                        <p class="check item"><%= item.name %></p><br>
+                    </div>
+                    <input type="hidden" name="hid" value="<%= day %>">
+                </form>
+            <% }) %>
+            <form action="/" method="post">
+                <input type="text " name="addItem" required autocomplete="off" class="in">
+                <button type="submit" class="btn" name="btn" value="<%= day %>" > + </button>
+            </form>
+        </div>
+<%- include("footer") -%>
