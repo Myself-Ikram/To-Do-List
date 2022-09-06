@@ -6,7 +6,9 @@ The definition is a simple one. It's a list of tasks you need to complete or thi
 ->You can also create your own List such as Work,Home etc.., Dynamically just through defining localhost:3000/"List Name"
 
  STEPS TO RUN :
+ 
  ------>Go inside the folder and open CMD/or any other.Write following:
+ 
  ------>npm init
  ------>npm i express body-parser ejs mongoose nodemon
  ------>Open one terminal and type:
