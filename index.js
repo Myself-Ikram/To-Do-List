@@ -18,7 +18,7 @@ const _ = require("lodash");
 
 //Importing Mongoose
 const mongoose = require("mongoose");
-mongoose.connect("mongodb://localhost:27017/TodolistDB",{useNewUrlParser:true});
+mongoose.connect("mongodb+srv://admin-ikram:admin@cluster0.dewmf45.mongodb.net/TodolistDB",{useNewUrlParser:true});
 
 //Specifing Schema
 const itemSchema = new mongoose.Schema({
