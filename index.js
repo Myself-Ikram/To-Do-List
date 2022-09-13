@@ -61,8 +61,11 @@ app.post("/",function(req,res){
         const userItem = new Item({
             name:req.body.addItem,
         })
-        userItem.save();
-        res.redirect("/");
+        userItem.save(function(err){
+            if(!err){
+                res.redirect("/");
+            }    
+        });
     }
     //Adding items in the Dynamic List(Created  by user)
     else{
