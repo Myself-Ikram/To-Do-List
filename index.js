@@ -75,22 +75,28 @@ app.post("/",function(req,res){
         })
         newListI.save();
         res.redirect("/" + btnClicked);
-    }
-
-//Deleting items in the List    
+    }   
 })
+//Deleting items in the List 
+
 app.post("/delete",function(req,res){
    const checked = req.body.checkbox;
    const route = req.body.hid;
    if(route === "Today"){
-        Item.deleteOne({_id: checked},error);
-        res.redirect("/");
+        Item.deleteOne({_id: checked},function(err){
+            if(!err){
+                res.redirect("/" + route);
+            }
+        });
    }
    //Deleting items in the Dynamic List(Created  by user)
    else{
         const dItem = new mongoose.model(route,itemSchema);
-        dItem.deleteOne({_id: checked},error);
-        res.redirect("/" + route);
+        dItem.deleteOne({_id: checked},function(err){
+            if(!err){
+                res.redirect("/" + route);
+            }
+        });
    }
 })
 
