@@ -25,7 +25,7 @@ The definition is a simple one. It's a list of tasks you need to complete or thi
  
  ------>Now open browser and type localhost:3000
  
- <h4>Below is the sample video</h4>
+ <h4>Below is a sample video</h4>
  
  https://user-images.githubusercontent.com/97652328/188698045-38fd40d4-3fa2-4af5-a2f7-78d4c3fd325a.mp4
  
