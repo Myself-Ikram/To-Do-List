@@ -9,7 +9,7 @@ The definition is a simple one. It's a list of tasks you need to complete or thi
 
 ->You can also create your own List such as Work,Home etc.., Dynamically just through defining localhost:3000/"List Name"
 
- STEPS TO RUN :
+<h4> STEPS TO RUN :</h4>
  
  ------>Go inside the folder and open CMD/or any other.Write following:
  
@@ -20,7 +20,7 @@ The definition is a simple one. It's a list of tasks you need to complete or thi
  ------>nodemon index.js 
  
  ------>Now open browser and type localhost:3000
- <h1>Below is the smaple video</h1>
+ <h4>Below is the smaple video</h4>
  
  https://user-images.githubusercontent.com/97652328/188698045-38fd40d4-3fa2-4af5-a2f7-78d4c3fd325a.mp4
  
