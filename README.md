@@ -15,13 +15,12 @@ The definition is a simple one. It's a list of tasks you need to complete or thi
  
  ------>npm init
  
- ------>npm i express body-parser ejs mongoose nodemon
- 
  ------>Open a terminal and type (inside the same directory!)
  
  ------>nodemon index.js 
  
  ------>Now open browser and type localhost:3000
+ <h1>Below is the smaple video</h1>
  
  https://user-images.githubusercontent.com/97652328/188698045-38fd40d4-3fa2-4af5-a2f7-78d4c3fd325a.mp4
  
