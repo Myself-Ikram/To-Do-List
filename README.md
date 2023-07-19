@@ -1,9 +1,13 @@
 # To-Do-List
 The definition is a simple one. It's a list of tasks you need to complete or things that you want to do
 
-->This list is created using HTML,CSS as FrontEnd and NodeJs/ExpressJs & Ejs,MongoDB/Mongoose as BackEnd.
+<h3>Technology Used:</h3>
 
-->The data is stored in local database.
+->This list is developed using HTML,CSS as FrontEnd and NodeJs/ExpressJs & Ejs,MongoDB/Mongoose as BackEnd.
+
+->The data will be stored in local database.
+
+<h3>Functionalities</h3>
 
 ->You can add/remove tasks easily.
 
@@ -20,7 +24,8 @@ The definition is a simple one. It's a list of tasks you need to complete or thi
  ------>nodemon index.js 
  
  ------>Now open browser and type localhost:3000
- <h4>Below is the smaple video</h4>
+ 
+ <h4>Below is the sample video</h4>
  
  https://user-images.githubusercontent.com/97652328/188698045-38fd40d4-3fa2-4af5-a2f7-78d4c3fd325a.mp4
  
